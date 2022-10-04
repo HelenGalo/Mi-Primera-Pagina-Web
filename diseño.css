@@ -44,9 +44,9 @@
     }
  h2 {
         background-position: top;
-        font-family: 'Bebas Neue', cursive;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
- 
+        margin-bottom: 2%;
         color: #FFFFFF;
 
 
@@ -79,4 +79,47 @@
     text-align: center;
     color: blanchedalmond;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .img-fija {
+    width: 80%;
+    height: 100%;
+    margin: 2% 20px;
+    box-shadow: #383a3b 1px 1px 5px;
+  
+  }
+  .primero {
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .primero article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: max-content;
+    padding: 0;
+    border:  2px solid rgb(92, 191, 230);
+  }
+  .primero .contenido {
+    margin: 0 80px;
+    text-align: justify;
+    width: 80%;
+  }
+  .primero h4{
+    color: #FFFFFF;
+    text-align: center;
+  }
+  #contenido {
+    margin-top: 15%;
+    border-top: #FFFFFF solid;
+ 
+  }
+  #interes {
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
   }
