@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#041C32, #0e3a5c, #041C32);
+  }
+  
+  #inicio { 
+    background-size: auto;
+    padding: 1%;
+    background: linear-gradient(#041C32, #0e3a5c, #041C32);
+    color:  #f7f0f2 ;
+    font-family:'Courier New', Courier, cursive;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-size: 30px;
+   border-bottom: #f7f0f2 solid;
+
+  }
+  h1 {
+    text-align: right;
+    background-position: top;
+     
+     
+
+  }
+ 
+ 
+#texto {
+    text-align: center;
+    font-family: 'Trebuchet MS', cursive;
+    margin-top: 25px;
+    font-size: larger;
+    padding: 2%;
+    color: #FFFFFF;
+    background-position: center;
+    
+    }
+ h2 {
+        background-position: top;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+ 
+        color: #FFFFFF;
+
+
+    }
+    main{
+        text-align:center;
+        font-size: 20px;
+
+    }
+    .img {
+    display: flex;
+    justify-content: center;
+      
+    }
+    .img img{
+        width: 100%;
+    
+    }
+
+  footer{
+
+    border-top: #f7f0f2 solid;
+    background-size: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 100%;
+    background: linear-gradient(#041C32, #24282B);
+  }
+  footer p {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
